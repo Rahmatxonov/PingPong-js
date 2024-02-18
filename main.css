@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hidden {
+  background: url(./images/confetti-4.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+}
+body {
+  font-family: "Varela", sans-serif;
+  background: url(./images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  height: 100vh;
+}
+.card {
+  background-color: #feffefd8;
+  max-width: 450px;
+  height: 650px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+.cards {
+  background-color: rgba(128, 128, 128, 0.811);
+  color: white;
+}
+.title {
+  text-align: center;
+  font-weight: 300;
+}
+
+.raketka {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.hisob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  column-gap: 10px;
+  font-size: 22px;
+}
+select {
+  width: 50px;
+  margin-left: 198px;
+  margin-top: 20px;
+  padding: 4px;
+  border: 2px solid #888;
+}
+.player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  column-gap: 20px;
+}
+.player1 {
+  border: none;
+  background-color: rgb(169, 248, 50);
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.player1:hover {
+  cursor: pointer;
+  background-color: rgb(136, 206, 31);
+}
+.player2 {
+  border: none;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.player2:hover {
+  cursor: pointer;
+  background-color: rgb(0, 198, 198);
+}
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 30px;
+  padding: 8px 52px 8px 52px;
+  border: none;
+  background-color: rgb(241, 90, 90);
+  border-radius: 4px;
+}
+.reset:hover {
+  background-color: rgb(191, 0, 0);
+  cursor: pointer;
+}
+.github {
+  color: rgb(142, 141, 141);
+  font-size: 20px;
+}
+.tg {
+  color: rgb(0, 38, 255);
+  font-size: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  column-gap: 20px;
+}
